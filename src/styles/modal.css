@@ -1,0 +1,112 @@
+.dialog {
+  position: absolute;
+  top: 450px;
+  width: 80%;
+  max-width: 600px;
+  background-color: var(--color-grey-9);
+  margin: 0 auto;
+  border: solid 2px transparent;
+  border-radius: 12px;
+}
+
+.header-modal {
+  width: 100%;
+}
+
+.header-modal h2 {
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem;
+  font-weight: 600;
+}
+
+.header-modal span {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 1.2rem;
+  color: var(--color-brand);
+}
+
+.main-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.order-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-grey-6);
+  padding-bottom: 2rem;
+}
+
+.order-modal p ~ p {
+  font-size: 1.4rem;
+}
+
+.pix {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--color-grey-6);
+  padding-bottom: 1rem;
+}
+
+.pix p {
+  font-size: 1.2rem;
+  color: var(--color-brand);
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.pix a {
+  background-color: var(--color-purchase);
+  width: 70%;
+  color: var(--color-grey-8);
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.creditCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.creditCard p {
+  font-size: 1rem;
+  color: var(--color-grey-4);
+  font-weight: 400;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.creditCard a {
+  background-color: var(--color-purchase);
+  width: 70%;
+  color: var(--color-grey-8);
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.514);
+}

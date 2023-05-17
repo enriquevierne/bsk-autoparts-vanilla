@@ -1,0 +1,13 @@
+.figure{
+
+    width: 100%;
+
+}
+
+.link{
+
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--color-brand);
+
+}
